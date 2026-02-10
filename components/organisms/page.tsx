@@ -113,8 +113,8 @@ export const Page = ({ children }: any) => (
       {process.env.NEXT_PUBLIC_VERCEL_ENV === "production" ? (
         <>
           {process.env.NEXT_PUBLIC_TAWK_ENABLED && <Tawk />}
-          <SpeedInsights />
-          <Analytics />
+          {/* <SpeedInsights />
+          <Analytics /> */}
         </>
       ) : null}
     </body>
